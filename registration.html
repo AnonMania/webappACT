@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title> Form in HTML </title>
+</html>
+<body style="text-align:center;" >
+	<h2> Student  Registration form </h2>
+	<form>
+	 <fieldset>
+		<legend> User personal information </legend>
+		<label> Enter your full name </label> <br>
+		<input type="text" name="name"> <br>
+		<label> Enter your Email </label> <br>
+		<input type="email" name="email"> <br>
+		<label> Enter your Age </label> <br>
+		<input type="numbers" name="Age"> <br>
+		<label> Enter your password </label> <br>
+		<input type="password" name="pass"> <br>
+		
+		<br> <label> Enter your gender </label> <br>
+		<input type="radio" id="gender" value="male"/> Male <br>
+		<input type="radio" id="gender" value="female"/> Female <br>
+		<input type="radio" id="gender" value="others"/> others <br>
+		
+		
+		<label for="subjects"> Favorite food: </label>
+		<select id="subjects" name="subjects">
+			<option value=""selected disabled>-- Favorite subject --</option>
+			<option value="math">math</option>
+			<option value="english">english</option>
+			<option value="science">science</option>
+			<option value="ICT">ICT</option>
+		</select>	
+		
+		
+		<br><label> Your Hobbies </label><br>
+		<input type="checkbox" id="hobby1" name="hobby" value="Reading">
+		<label for="hobby1">Reading</label><br>
+		<input type="checkbox" id="hobby2" name="hobby" value="Sports">
+		<label for="hobby2">Sports</label><br>
+		<input type="checkbox" id="hobby3" name="hobby" value="Music">
+		<label for="hobby3">Music</label><br>
+		<input type="checkbox" id="hobby4" name="hobby" value="Gaming">
+		<label for="hobby4">Gaming</label><br>
+		
+		<br> Short introduction: <br>
+		<textarea> </textarea> <br>
+		
+		<input type="submit" value="sign-up">
+		
+		<input type="reset">
+		
+		
+	</fieldset>
+   </form>
+  </body>
+</html>  
