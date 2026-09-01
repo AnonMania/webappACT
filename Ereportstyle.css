@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 30px 20px;
+    background-color: white;
+    color: #111;
+}
+
+.report-card {
+    max-width: 1480px;
+    margin: auto;
+}
+
+/* E-REPORT CARD */
+h1 {
+    text-align: center;
+    color: #174f7d;
+    font-size: 32px;
+    margin: 10px 0 25px;
+}
+
+/* Section headings */
+h2 {
+    color: #174f7d;
+    font-size: 24px;
+    margin: 20px 0 15px;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #174f7d;
+}
+
+/* Student Information Table */
+.student-info {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-info td {
+    padding: 9px;
+    font-size: 16px;
+}
+
+/* Blue labels */
+.student-info .label {
+    background-color: #e5eff6;
+    font-weight: bold;
+    width: 20%;
+}
+
+/* Grades Table */
+.grades {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Table header */
+.grades tr:first-child th {
+    background-color: #24577f;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Table cells */
+.grades td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Alternating row colors */
+.grades tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+/* Passed */
+.passed {
+    color: green;
+    font-weight: bold;
+}
+
+/* General Average */
+.grades tr:last-child th {
+    background-color: #24577f;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 25px;
+    color: #555;
+    font-size: 16px;
+}
+
+.footer p {
+    margin: 12px 0;
+}
